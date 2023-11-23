@@ -111,7 +111,7 @@ text-align:right;
     }
     100% {
       transform: scale(.95);
-      box-shadow: 0 0 0 0 #d1d1d1;
+      box-shadow: 0 0 0 0 #d1d1d1;npm run dev
     }
   }
   
