@@ -7,17 +7,17 @@ export const Show = ({ _id, createdAt, hearts, message, handleLike }) => {
     const minutesAgo = Math.floor(timeDifference / (1000 * 60));
 
     if (minutesAgo < 1) {
-      return "Just now";
+      return "Just now.";
     } else if (minutesAgo === 1) {
-      return "1 minute ago";
+      return "1 minute ago.";
     } else if (minutesAgo < 60) {
-      return `${minutesAgo} minutes ago`;
+      return `${minutesAgo} minutes ago.`;
     } else {
       const hoursAgo = Math.floor(minutesAgo / 60);
       if (hoursAgo === 1) {
-        return "1 hour ago";
+        return "1 hour ago.";
       } else {
-        return `${hoursAgo} hours ago`;
+        return `${hoursAgo} hours ago.`;
       }
     }
   }

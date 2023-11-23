@@ -16,7 +16,7 @@ export const Send = ({ setNewMessage, handleSend, newMessage }) => {
   };
   return (
     <div className="post-wrapper">
-      <h2>What is making you happy right now?</h2>
+      <h1>What makes you happy right now?</h1>
       <form>
         <textarea
           rows="3"
