@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { Send } from "./components/Send";
-import { Show } from "./components/Show";
+import { Send } from "./Components/Send";
+import { Show } from "./Components/Show";
 export const App = () => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState("");
